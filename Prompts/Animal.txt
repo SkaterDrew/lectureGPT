@@ -1,0 +1,34 @@
+En premier, peux-tu m’écrire 5 phrases qui décrivent le renard, une pour chacun des sujets suivants:
+- son apparence;
+- son habitat et climat;
+- son alimentation;
+- son comportement social;
+- un fait intéressant et divertissant, unique à cet animal.
+De plus, je voudrais que ces phrases soient courtes et concises, en utilisant des mots et temps de verbe simples, afin de favorisé l’apprentissage de la lecture pour un premier lecteur, d’âge environ 6 ans.
+En deuxième, peux-tu séparer chaque description en 2 ou 3 phrases plus petites?
+En dernier, peux-tu mettre ces 5 descriptions en fichier html, avec <!DOCTYPE html>, suivi de l'élément <html>, dans lequel on retrouve <head>, qui contient <title> enveloppant le nom de l'animal et <link rel="stylesheet" type="text/css" href="style.css">, suivi de <body>, dans lequel le texte est enveloppé dans un élément <div class="container">, chaque description dans un élément <div class="box">, contenant le sujet de la description dans un élément <strong>, suivi d'un élément <img> qui a comme référence "img/default.png" et un alt en lien avec la description, suivi enfin de la description en utilisant les éléments <ul class="description> et <li>.
+
+// POUR GÉNÉRER LES FICHIERS HTML
+
+En premier, peux-tu m’écrire 5 phrases qui décrivent le renard, une pour chacun des sujets suivants:
+- son apparence;
+- son habitat et climat;
+- son alimentation;
+- son comportement social;
+- un fait intéressant et divertissant, unique à cet animal.
+De plus, je voudrais que ces phrases soient courtes et concises, en utilisant des mots et temps de verbe simples, afin de favorisé l’apprentissage de la lecture pour un premier lecteur, d’âge environ 6 ans.
+En deuxième, peux-tu séparer chaque description en 2 ou 3 phrases plus petites?
+En troisième, peux-tu mettre ces 5 descriptions en fichier html, avec <!DOCTYPE html>, suivi de l'élément <html>, dans lequel on retrouve <head>, qui contient <title> enveloppant le nom de l'animal, un élément <style> (pour mettre une couleur d'arrière-plan et de texte en lien avec l'animal) et <link rel="stylesheet" type="text/css" href="style.css">, suivi de <body>, dans lequel on retrouve un élément <h2> enveloppant le nom de l'animal, suivi du texte qui est enveloppé dans un élément <div class="container">, avec chaque description dans un élément <div class="box">, contenant le sujet de la description dans un élément <strong>, suivi d'un élément <img> qui a comme référence "img/default.png" et un alt en lien avec la description, suivi enfin de la description en utilisant les éléments <ul class="description> et <li>.
+En dernier, peux tu ajouter, dans l'élément <div class="container">:
+    <div class="box"><strong>Mon dessin!!!</strong>
+        <img class="picture" src="img/default.png">
+        <div></div>
+    </div>
+
+
+// POUR GÉNÉRER DES IMAGES
+Peux-tu generer une image avec la description suivante:
+
+
+
+// TROUVER UNE FAÇON D'AUTOMATISER LA CRÉATION D'UN NOUVEAU DOSSIER AVEC LE TERMINAL
