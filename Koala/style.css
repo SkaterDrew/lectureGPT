@@ -2,14 +2,13 @@ body {
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Helvetica', 'Arial', sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    color: #333;
-    background: linear-gradient(to right, #b33a3a, #ff7f50);
+    /* color: #5a3511;
+    background: linear-gradient(to right, #b33a3a, #ff7f50); */
 }
 
 h2 {
     font-size: 60px;
     text-align: center;
-    color: #5a3511; /* Tomato color for headings */
 }
 
 div.container {
@@ -26,7 +25,6 @@ div.container .box {
     margin: 20px auto 0;
     width: 90%;
     font-size: 25px;
-    color: #008080; /* Teal color for subtitles */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px auto auto;
@@ -49,6 +47,7 @@ div.container .description {
 
 .description li {
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 img {

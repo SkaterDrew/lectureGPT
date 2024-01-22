@@ -1,33 +1,66 @@
-En premier, peux-tu m’écrire 5 phrases qui décrivent le renard, une pour chacun des sujets suivants:
+Dans ce chat, je souhaite créer des texte amusant, informatifs et facile à lire pour mon fils de 6 ans qui apprend la lecture.
+Lorsque j'écrirai "$" suivi du nom d'un animal, suivi d<un autre "$", alors je veux que tu effectue la demande suivante (tout le texte entre les {}), en remplacant <animal> par le nom de l'animal que j'aurai donné entre les signes "$":
+{En premier, peux-tu m’écrire 5 phrases qui décrivent le/la <animal>, une pour chacun des sujets suivants:
 - son apparence;
 - son habitat et climat;
 - son alimentation;
 - son comportement social;
 - un fait intéressant et divertissant, unique à cet animal.
-De plus, je voudrais que ces phrases soient courtes et concises, en utilisant des mots et temps de verbe simples, afin de favorisé l’apprentissage de la lecture pour un premier lecteur, d’âge environ 6 ans.
-En deuxième, peux-tu séparer chaque description en 2 ou 3 phrases plus petites?
-En dernier, peux-tu mettre ces 5 descriptions en fichier html, avec <!DOCTYPE html>, suivi de l'élément <html>, dans lequel on retrouve <head>, qui contient <title> enveloppant le nom de l'animal et <link rel="stylesheet" type="text/css" href="style.css">, suivi de <body>, dans lequel le texte est enveloppé dans un élément <div class="container">, chaque description dans un élément <div class="box">, contenant le sujet de la description dans un élément <strong>, suivi d'un élément <img> qui a comme référence "img/default.png" et un alt en lien avec la description, suivi enfin de la description en utilisant les éléments <ul class="description> et <li>.
-
-// POUR GÉNÉRER LES FICHIERS HTML
-
-En premier, peux-tu m’écrire 5 phrases qui décrivent le renard, une pour chacun des sujets suivants:
-- son apparence;
-- son habitat et climat;
-- son alimentation;
-- son comportement social;
-- un fait intéressant et divertissant, unique à cet animal.
-De plus, je voudrais que ces phrases soient courtes et concises, en utilisant des mots et temps de verbe simples, afin de favorisé l’apprentissage de la lecture pour un premier lecteur, d’âge environ 6 ans.
-En deuxième, peux-tu séparer chaque description en 2 ou 3 phrases plus petites?
-En troisième, peux-tu mettre ces 5 descriptions en fichier html, avec <!DOCTYPE html>, suivi de l'élément <html>, dans lequel on retrouve <head>, qui contient <title> enveloppant le nom de l'animal, un élément <style> (pour mettre une couleur d'arrière-plan et de texte en lien avec l'animal) et <link rel="stylesheet" type="text/css" href="style.css">, suivi de <body>, dans lequel on retrouve un élément <h2> enveloppant le nom de l'animal, suivi du texte qui est enveloppé dans un élément <div class="container">, avec chaque description dans un élément <div class="box">, contenant le sujet de la description dans un élément <strong>, suivi d'un élément <img> qui a comme référence "img/default.png" et un alt en lien avec la description, suivi enfin de la description en utilisant les éléments <ul class="description> et <li>.
-En dernier, peux tu ajouter, dans l'élément <div class="container">:
-    <div class="box"><strong>Mon dessin!!!</strong>
-        <img class="picture" src="img/default.png">
-        <div></div>
-    </div>
+De plus, je voudrais que ces phrases soient courtes et concises, avec sujet, verbe et complément, en utilisant des mots et temps de verbe simples, afin de favorisé l’apprentissage de la lecture pour un premier lecteur, d’âge environ 6 ans.
+En deuxième, peux-tu séparer chaque description en 3 phrases plus petites?
+En dernier, peux-tu remplacer, dans le code HTML ci-dessous, le texte des éléments <li></li> par les phrases correspondantes au sujet inscrit dans l'élément <strong></strong> du même élément <div class="box"></div>, afin de je puisse le copier et coller.
+Voici le code à modifier:
+<div class="box">
+            <strong>Apparence</strong>
+            <img src="img/appearance.png" alt="Pingouin noir et blanc">
+            <ul class="description">
+                <li>phrase 1</li>
+                <li>phrase 2</li>
+                <li>phrase 3</li>
+            </ul>
+        </div>
+        <div class="box">
+            <strong>Habitat et Climat</strong>
+            <img src="img/habitat.png" alt="Habitat du pingouin">
+            <ul class="description">
+                <li>phrase 1</li>
+                <li>phrase 2</li>
+                <li>phrase 3</li>
+            </ul>
+        </div>
+        <div class="box">
+            <strong>Alimentation</strong>
+            <img src="img/nutrition.png" alt="Alimentation du pingouin">
+            <ul class="description">
+                <li>phrase 1</li>
+                <li>phrase 2</li>
+                <li>phrase 3</li>
+            </ul>
+        </div>
+        <div class="box">
+            <strong>Comportement Social</strong>
+            <img src="img/social.png" alt="Comportement social du pingouin">
+            <ul class="description">
+                <li>phrase 1</li>
+                <li>phrase 2</li>
+                <li>phrase 3</li>
+            </ul>
+        </div>
+        <div class="box">
+            <strong>Fait Intéressant</strong>
+            <img src="img/facts.png" alt="Fait intéressant sur le pingouin">
+            <ul class="description">
+                <li>phrase 1</li>
+                <li>phrase 2</li>
+                <li>phrase 3</li>
+            </ul>
+        </div>
+Tu peux me retourner uniquement le code HTML.}
+Également, si j'écris "$hasard$", alors je veux que tu effectue la même demande ci-haut, mais avec un animal choisi au hasards. Si "hasard" est suivi d'une virgule, alors le texte suivant la virgule indique une restriction sur les animaux qui peuvent être choisi au hasard, par exemple la demande "$hasard, mammifère$" demande de choisir au hasard un animal parmis les mammifères et d'effectuer la demande ci-haut (entre les {}) pour cet animal.
 
 
 // POUR GÉNÉRER DES IMAGES
-Peux-tu generer une image avec la description suivante:
+Lorsque j'écrirai "#" suivi du nom d'un animal pour lequel une demande avec "$" a déjà été faite, suivi d'une virgule et d'un des cinq sujets (apparence, habitat, alimentation, social et faits), je veux que tu me génère une image en lien avec la description de ce sujet qui a été générée.
 
 
 
